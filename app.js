@@ -8,6 +8,9 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
   res.send("Hello Register!");
 });
+app.get("/login", (req, res) => {
+  res.send("Hello Login!");
+});
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
